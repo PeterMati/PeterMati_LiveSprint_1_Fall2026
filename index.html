@@ -7,5 +7,34 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header class="site-header">
+      <h1 class="header-text">
+        Welcome to the Interactive Reveal What's that Animal UI
+      </h1>
+    </header>
+    <main class="site-container">
+      <h2 class="site-desc">
+        Click on the buttons below to reveal the animal images
+      </h2>
+
+      <div class="content-container">
+        <div class="animal-container">
+          <img id="cat-img" />
+          <button class="btn btn-hide" id="hide-cat">Hide</button>
+          <button class="btn cat" id="cat">Reveal a CAT</button>
+        </div>
+        <div class="animal-container">
+          <img id="dog-img" />
+          <button class="btn btn-hide" id="hide-dog">Hide</button>
+          <button class="btn dog" id="dog">Reveal a DOG</button>
+        </div>
+        <div class="animal-container">
+          <img id="cow-img" />
+          <button class="btn btn-hide" id="hide-cow">Hide</button>
+          <button class="btn cow" id="cow">Reveal a COW</button>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
